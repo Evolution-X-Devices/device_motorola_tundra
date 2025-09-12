@@ -9,4 +9,8 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar">144</integer>
+
+    <!-- Custom Maintainer -->
+    <string name="build_maintainer_summary" translatable="false">Deivid Ignacio Parra (Deivid21)</string>
+    <string name="build_maintainer_donate_url" translatable="false">https://www.paypal.com/paypalme/Deivid21</string>
 </resources>
