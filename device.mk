@@ -85,13 +85,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     hardware.sku.XT2243-2.prop
 
-# Sensors
-PRODUCT_PACKAGES += \
-    sensors.tundra
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
